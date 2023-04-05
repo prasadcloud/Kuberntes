@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   name: nginx-pod
   labels:
-    authors: AVD
+    author: AVD
     type: proxy
 spec:
   containers:
