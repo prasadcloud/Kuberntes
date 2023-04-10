@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   name: postgres-pod
   labels:
-    type: posgresdb
+    type: posgres-db
     author: AVD
 spec:
   containers:

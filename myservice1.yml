@@ -10,10 +10,10 @@ spec:
   ports:
     - targetPort: 80
       port: 80
-      nodePort: 30007
+      nodePort: 30040
   selector:
     type: proxy
-    author: AVD
+    
 ...
 
 
