@@ -33,6 +33,11 @@ spec:
       containers:
         - name: mysql
           image: mysql
+          resources:
+            requests:
+               cpu: "500m"
+            limits:
+              cpu: "500m"
           ports:
             - name: tcp
               protocol: TCP
